@@ -1,4 +1,4 @@
-console.log('我是index.js222')
+console.log('我是index.js1.1')
 
 function nimei() {
   console.log('NiMei')
