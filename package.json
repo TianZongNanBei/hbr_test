@@ -1,0 +1,29 @@
+{
+  "name": "hbr_test",
+  "version": "1.0.0",
+  "description": "Huangbr test npm",
+  "main": "./dist/index.js",
+  "bin": {
+    "hello": "./bin/hello.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "npm run build && node ./dist/index.js"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs.js",
+      "import": "./dist/index.esm.js"
+    }
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Huangbr",
+  "license": "ISC",
+  "devDependencies": {
+    "bumpp": "^10.2.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
