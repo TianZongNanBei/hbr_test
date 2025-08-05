@@ -1,5 +1,5 @@
 export const nimei = () => {
-  console.log('NiMei7')
+  console.log('nimei7')
 }
 
 export const wocao = () => {
