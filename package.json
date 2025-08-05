@@ -1,11 +1,17 @@
 {
   "name": "hbr_test",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Huangbr test npm",
+  "author": "Huangbr",
+  "license": "ISC",
   "main": "./dist/index.js",
   "bin": {
     "hello": "bin/hello.js"
   },
+  "files": [
+    "bin",
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "npm run build && node ./dist/index.js",
@@ -20,8 +26,6 @@
   "keywords": [
     "test"
   ],
-  "author": "Huangbr",
-  "license": "ISC",
   "devDependencies": {
     "bumpp": "^10.2.2",
     "tsup": "^8.5.0",
