@@ -1,6 +1,6 @@
 {
   "name": "hbr_test",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Huangbr test npm",
   "author": "Huangbr",
   "license": "ISC",
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsup",
     "test": "npm run build && node ./dist/index.js",
-    "bumpp": "npm run build && bumpp && git add . && git commit -m \"chore: bump version $(npm pkg get version | tr -d '\"')\""
+    "bumpp": "npm run build && bumpp && git add . && git pull && git commit -m \"chore: bump version $(npm pkg get version | tr -d '\"')\""
   },
   "exports": {
     ".": {
