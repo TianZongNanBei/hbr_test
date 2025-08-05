@@ -1,6 +1,6 @@
 {
   "name": "hbr_test",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Huangbr test npm",
   "author": "Huangbr",
   "license": "ISC",
@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsup",
     "test": "npm run build && node ./dist/index.js",
-    "bumpp": "bumpp"
+    "bumpp": "npm run build && bumpp"
   },
   "exports": {
     ".": {
