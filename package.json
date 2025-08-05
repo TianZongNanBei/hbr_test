@@ -1,6 +1,6 @@
 {
   "name": "hbr_test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Huangbr test npm",
   "main": "./dist/index.js",
   "bin": {
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsup",
     "test": "npm run build && node ./dist/index.js",
-    "version:bump": "bumpp"
+    "bumpp": "bumpp"
   },
   "exports": {
     ".": {
