@@ -1,2 +1,2 @@
-console.log("\u6211\u662Findex.js1.0.5");function o(){console.log("NiMei5")}var e=()=>{console.log("WoCao")},n=o;export{n as default,e as wocao};
+var o=()=>{console.log("nimei7")},e=()=>{console.log("WoCao")};export{o as nimei,e as wocao};
 //# sourceMappingURL=index.mjs.map
