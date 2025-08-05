@@ -1,6 +1,6 @@
 {
   "name": "hbr_test",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Huangbr test npm",
   "main": "./dist/index.js",
   "bin": {
@@ -13,8 +13,8 @@
   },
   "exports": {
     ".": {
-      "require": "./dist/index.cjs.js",
-      "import": "./dist/index.esm.js"
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
     }
   },
   "keywords": [
