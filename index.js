@@ -1,7 +1,7 @@
-console.log('我是index.js1.1')
+console.log('我是index.js1.0.5')
 
 function nimei() {
-  console.log('NiMei')
+  console.log('NiMei5')
 }
 
 export const wocao = () => {
